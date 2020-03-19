@@ -45,6 +45,7 @@
         "typeinfo": "cpp",
         "stack": "cpp",
         "ios": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "xstring": "cpp"
     }
 }
