@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//Runtime: 95.35%
 class Solution {
 public:
     int maxArea(vector<int>& height) {
