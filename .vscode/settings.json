@@ -46,6 +46,8 @@
         "stack": "cpp",
         "ios": "cpp",
         "xiosbase": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "unordered_set": "cpp",
+        "queue": "cpp"
     }
 }
