@@ -16,3 +16,14 @@ https://www.cnblogs.com/grandyang/p/8887985.html
 71.
 
 注意如何splite
+
+155
+
+* 225
+
+232
+
+
+stack 易错   pop() 前判空
+            忘记 pop()
+        
