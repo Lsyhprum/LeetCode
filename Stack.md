@@ -5,6 +5,10 @@
 
 *** 42.
 
+*** 84.  1. trick 0
+
+https://www.cnblogs.com/grandyang/p/8887985.html
+
 2. 栈的特性
 
 20.
