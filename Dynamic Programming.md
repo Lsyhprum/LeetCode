@@ -88,6 +88,8 @@ if n < 0 : return -1
 
 70. 注意 dp_table[n+1]
 
+198. why base case 不同
+
 
 
 
