@@ -5,7 +5,10 @@
             "label": "g++",
             "type": "shell",
             "command": "g++",
-            "args": ["-g","${file}","-o","${fileDirname}/${fileBasenameNoExtension}.exe"]
+            "args": [
+                "-g",
+                "${file}",
+                "-o","${fileDirname}/${fileBasenameNoExtension}.exe"]
                 
         }
     ]
