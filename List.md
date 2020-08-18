@@ -11,3 +11,30 @@
 [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) : [solution]()
 
 [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) : [solution]()
+
+### Merge
+
+[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) : [solution]()
+
+[23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) : [solution]()
+
+[147. 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) : [solution]()
+
+[148. 排序链表](https://leetcode-cn.com/problems/sort-list/) : [solution]()
+
+## Util
+
+```cpp
+ListNode* vec2LinkedList(vector<int> v){
+    ListNode dummy(0);
+    ListNode *ptr = &dummy;
+
+    for(int i : v){
+        ListNode *node = new ListNode(i);
+        ptr->next = node;
+        ptr = ptr->next;     
+    }
+
+    return dummy.next;
+}
+```
