@@ -1,0 +1,1 @@
+tmp.push_back(s + c); 会产生新的拷贝
