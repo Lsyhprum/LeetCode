@@ -1,12 +1,37 @@
-[stack](https://github.com/Lsyhprum/LeetCode/blob/master/Stack.md)
 
-[queue]()
+# LeetCode
 
-[tree]()
+## Base 
 
-[two pointers]()
+## Data Structure
 
-[search]()
+[Array]()
 
-[dp]()
+[List]()
+
+[Stack]()
+
+[Queue]()
+
+[String]()
+
+[Tree]()
+
+[Graph]()
+
+## Algorithms
+
+[Recursion]()
+
+[Two Pointers]()
+
+[Divide & Conquer]()
+
+[Binary Search]()
+
+[Search]()
+
+[Greedy]()
+
+[DP]()
 
