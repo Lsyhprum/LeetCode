@@ -1,8 +1,12 @@
 # DP
 
-[70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) : [solution]()
+* [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) : [solution]()
 
-[746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) : [solution]()
+* [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) : [solution]()
+
+* [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/) : [solution]()
+
+
 
 * 什么问题可以使用动态规划？
 
