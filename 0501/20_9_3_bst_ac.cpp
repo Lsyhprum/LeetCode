@@ -10,6 +10,8 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+// Time complexity : O(N)
+// Memory complexity : O(N)
 class Solution {
 public:
     vector<int> findMode(TreeNode* root) {

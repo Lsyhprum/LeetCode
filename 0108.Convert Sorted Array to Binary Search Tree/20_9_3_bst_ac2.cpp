@@ -11,25 +11,27 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-// Time complexity : 3%
+// Time complexity : 90.27%
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
         //cout << nums.size() << endl;
         if(nums.size() == 0) return nullptr;
+        
+        TreeNode *node = Recursion(nums, 0, nums.size() - 1);
 
-        int mid = nums.size() / 2;
+        return node;
+    }
+
+    TreeNode* Recursion(const vector<int>& nums, int l, int r){
+        if(l > r) return nullptr;
+        //cout << l << " " << r << endl;
+
+        int mid = (l + r)/2;
         TreeNode *node = new TreeNode(nums[mid]);
 
-        vector<int> nums1(nums.begin(), nums.begin() + mid);
-        vector<int> nums2(nums.begin() + mid + 1, nums.end());
-
-        TreeNode *left = sortedArrayToBST(nums1);
-
-        TreeNode *right = sortedArrayToBST(nums2);
-
-        node->left = left;
-        node->right = right;
+        node->left = Recursion(nums, l, mid-1);
+        node->right = Recursion(nums, mid + 1, r);
 
         return node;
     }

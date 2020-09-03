@@ -12,11 +12,12 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left_, TreeNode *right_) : val(x), left(left_), right(right_) {}
 };
 
+// Time complexity : O(N)
+// Memory complexity : O(2N)
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
         if(root == nullptr) return true;
-
 
         vector<int> val;
         InOrder(root, val);
