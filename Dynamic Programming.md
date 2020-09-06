@@ -1,6 +1,10 @@
 # DP
 
+* [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
+
 * [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) : [solution]()
+
+* [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
 
 * [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) : [solution]()
 
