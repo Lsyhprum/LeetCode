@@ -16,6 +16,11 @@
 * [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/)
     * [solution]()
 
+* [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+
+* [518. 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/)
+    * []()
+
 ### 动态规划模板
 
 * 方法流程 ： 暴力递归搜索 -> 带备忘录的递归搜索（自顶向下） -> 动态规划（自下而上）-> 动态规划（状态压缩）
