@@ -10,6 +10,28 @@
 
 * [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/) : [solution]()
 
+* [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)
+    * [环状排列]()
+
+* [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/)
+    * [solution]()
+
+### 动态规划模板
+
+* 方法流程 ： 暴力递归搜索 -> 带备忘录的递归搜索（自顶向下） -> 动态规划（自下而上）-> 动态规划（状态压缩）
+* 思考流程 ： 明确状态 -> 明确 dp 数组含义 -> 明确状态转移 
+
+```cpp
+# 初始化 base case
+dp[0][0][...] = base
+# 进行状态转移
+for 状态1 in 状态1的所有取值：
+    for 状态2 in 状态2的所有取值：
+        for ...
+            dp[状态1][状态2][...] = 求最值(选择1，选择2...)
+```
+
+* Search -> Search with memo (重叠子问题) -> 
 
 
 * 什么问题可以使用动态规划？
@@ -111,7 +133,9 @@ if n < 0 : return -1
 198. why base case 不同
 
 
+*参考*：
 
+[第一章、动态规划系列](https://labuladong.gitbook.io/algo/dong-tai-gui-hua-xi-lie)
 
 
 
