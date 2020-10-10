@@ -1,5 +1,9 @@
 ## 二分查找
 
+[35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+
+[367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/)
+
 我的理解：目标可通过左右两个条件限制，且不需要准确位置时使用
 
 以下均讨论左右闭区间：
@@ -93,6 +97,10 @@ int right_bound(int[] nums, int target) {
 5. 寻找右边界
 
     * if(nums[mid] == target) left = mid;
+
+6. **判断返回 left 还是 right**
+
+    * 根据返回较大值还是较小值决定
 
 ## 快速幂
 
