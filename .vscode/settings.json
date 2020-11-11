@@ -65,6 +65,7 @@
         "xtr1common": "cpp",
         "xtree": "cpp",
         "functional": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "random": "cpp"
     }
 }
