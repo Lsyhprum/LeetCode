@@ -34,6 +34,10 @@ public int intervalSchedule(int[][] intvs) {
 }
 ```
 
+# Other 
+
+406
+
 **易错:**
 1. 判断区间是否为 0
 2. 若区间不为 0, 至少一个区间不相交
