@@ -29,6 +29,8 @@ int binary_search(int[] nums, int target) {
 }
 ```
 
+34. 在排序数组中查找元素的第一个和最后一个位置
+
 704.
 
 * 寻找左边界二分查找
