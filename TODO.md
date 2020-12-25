@@ -23,3 +23,5 @@ https://leetcode-cn.com/circle/article/48kq9d/
 [332] 欧拉路径
 
 [99] Morris 算法
+
+代码实现优化（lambda）
